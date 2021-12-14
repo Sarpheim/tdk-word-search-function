@@ -16,13 +16,13 @@ console.log(TDKWordSearchFunction(fetch, word))
 
 ## Result
 ### If there is an error
-```json
+```
 {
   error: 'Sonuç bulunamadı'
 }
 ```
 ### If there is not an error
-```json
+```
 [
   {
     madde_id: '53350',

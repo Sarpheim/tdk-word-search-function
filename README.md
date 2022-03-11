@@ -9,7 +9,7 @@ const TDKWordSearchFunction = require("./tdk-word-search-function.js")
 const word = "nazım"
 // "word" value can be everything you want.
 
-console.log(TDKWordSearchFunction(fetch, word))
+console.log(TDKWordSearchFunction(word))
 ```
 
 ---

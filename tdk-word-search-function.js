@@ -1,5 +1,5 @@
-module.exports = async (src) => {
-  const fetch = require("node-fetch")
+module.exports = async (value) => {
+  const got = require("got")
   
-  return await fetch(`https://sozluk.gov.tr/gts?ara=${encodeURI(src.toLowerCase())}`).then((response) => response.json())
+  return got(`https://sozluk.gov.tr/gts?ara=${encodeURI(value)}`).then((response) => console.log(JSON.parse(response.body)))
 }
